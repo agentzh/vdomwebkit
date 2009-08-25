@@ -16,7 +16,9 @@ Then build the qt as usual:
 
   cd /path/to/qt-all-opensource-src-4.5.2
 
-  # install the qt prerequisites like gcc-c++, libX11-devel, and libXext-devel:
+  # install the qt prerequisites like gcc-c++, libX11-devel, and libXext-devel
+  # before running the configure script...
+
   echo yes | \
     ./configure -prefix /install/path/qt -opensource -release \
     -shared -no-phonon-backend -no-phonon -no-opengl \
